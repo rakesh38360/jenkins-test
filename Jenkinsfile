@@ -10,6 +10,6 @@ node{
     stage('Email Notification'){
         emailext body: '''Hi Welcome to jenkins email alerts
         Thanks
-        Rakesh''', subject: 'Jenkins Job', to: 'rakesh38360@gmail.com'
+        Rakesh''', subject: 'Jenkins Job', to: 'rakesh.carpenter@hotmail.com'
     }
 }
