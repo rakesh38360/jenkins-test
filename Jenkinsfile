@@ -8,7 +8,6 @@ pipeline {
                    echo "Multiline shell steps"
                    ls -lah
                    '''
-                sh 'npm --version'
             }
         }
         stage('Test') {
