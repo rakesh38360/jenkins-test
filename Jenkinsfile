@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'maven --version'
+                echo $PATH
             }
         }
     }
