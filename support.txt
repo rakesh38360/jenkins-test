@@ -1,1 +1,2 @@
 This is only a support message.
+support=main
